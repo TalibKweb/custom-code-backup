@@ -1,0 +1,62 @@
+@media (min-width: 768px) and (max-width: 1023px) {
+    .custom-industry-layout.container .industry-top-row.row {
+        align-items: flex-start;
+    }
+
+    .custom-industry-layout.container .industry-top-row.row .industry-image,
+    .custom-industry-layout.container .industry-top-row.row .industry-short-desc {
+        width: 50%;
+    }
+
+    .custom-industry-layout.container .industry-top-row.row .industry-image img {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .custom-industry-layout.container .industry-top-row.row .industry-image img {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .custom-industry-layout.container .industry-top-row.row {
+        gap: 25px;
+    }
+}
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+/* >>>>>>>>>>>>>>>>>>>>> Product Detail Page */
+.custom-product-layout .product-short-desc h1.product-title {
+    margin-bottom: 8px;
+}
+
+
+.custom-product-layout .product-short-desc h4 {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #ef8121;
+    margin-bottom: 10px;
+}
+
+.custom-product-layout .product-short-desc p {
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 767px) {
+    .custom-product-layout .product-image img {
+        width: 100%;
+    }
+
+    .custom-product-layout .product-top-row.row {
+        gap: 25px;
+    }
+}
+
+
+/* >>>>>>>>>>>>>>>>>>>>> ENDS Product Detail Page */

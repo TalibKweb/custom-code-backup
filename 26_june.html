@@ -1,0 +1,23 @@
+<style>
+    .white-header-active {
+        background: aqua !important;
+        visibility: visible !important;
+        position: fixed;
+        width: 100% !important;
+        top: 0 !important;
+        transition: top .5s ease-in-out !important;
+    }
+</style>
+
+<script>
+    // console.log("Script File Connected!");
+    document.addEventListener('DOMContentLoaded', () => {
+        let whiteHeader = document.querySelector('.jupiterx-site:not(.jupiterx-site-body-border) .jupiterx-header.jupiterx-header-sticky-custom.jupiterx-header-custom > .elementor:last-of-type:not(:first-of-type)');
+
+        document.addEventListener("scroll", (event) => {
+            // console.log('page offset', window.pageYOffset);
+            window.pageYOffset > 110 ? whiteHeader.classList.add("white-header-active") : whiteHeader.classList.remove("white-header-active");
+        })
+    });
+
+</script>
