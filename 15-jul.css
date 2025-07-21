@@ -1,138 +1,17 @@
 
-/* >>>>>>>>>>>>>>>>>> Industries Section */
 
-#industries-sec .indus_icons_row .stm_iconbox.stm_iconbox_style_14 {
-    display: flex;
-    align-items: center;
-    padding: 35px;
+.why-choose-ing-about-pg-txt ul li {
+    list-style: none;
 }
 
-#industries-sec .vc_row.wpb_row.vc_inner .wpb_column.vc_column_container .stm_iconbox__text h5 {
-    margin: 0 !important;
-}
-
-
-
-/* >>>>>>>>>>>>>>>>>> Why Choose Section */
-
-#why-choose-us-sec .stm_iconbox.stm_iconbox_style_4 {
-    padding: 35px 15px 25px;
-    text-align: center;
-}
-
-#why-choose-us-sec .stm_iconbox.stm_iconbox_style_4:hover {
-    padding: 28px 15px 25px;
-    text-align: center;
-}
-
-#why-choose-us-sec .stm_iconbox.stm_iconbox_style_4 .stm_iconbox__desc p {
-    max-height: 40px !important;
-}
-
-#why-choose-us-sec .stm_iconbox.stm_iconbox_style_4:hover .stm_iconbox__desc p {
-    max-height: 100% !important;
-}
-
-#why-choose-icon-box-row {
-    height: 300px;
-    /* background-color: antiquewhite !important; */
-}
-
-
-
-
-
-
-/* >>>>>>>>>>>>>>>>>>> About Us Parallax Sec */
-.wpb-content-wrapper .container-fluid.vc_container-fluid.about-parallax-section-fixed {
-    background-attachment: fixed !important;
-}
-
-
-
-/* >>>>>>>>>>>>>>>>>> Slider Fixes */
-
-.owl-item.active .slide_1 .stm_slide__pattern {
-    background-repeat: repeat;
-    background-position: bottom;
-}
-
-.owl-item.active .slide_2 .stm_slide__pattern {
+.why-choose-ing-about-pg-txt ul li::before {
+    content: '';
+    background-image: url(https://ingenero-ai.kwebmaker.co.in/wp-content/uploads/2025/07/tick_icon.svg) !important;
     background-repeat: no-repeat;
-    background-position: center;
+    background-color: aqua;
+    /* display: block; */
+    position: absolute;
+    margin: 1px 0 0 -24px;
+    width: 14px;
+    height: 14px;
 }
-
-.owl-item.active .slide_3 .stm_slide__pattern {
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-
-
-/* >>>>>>>>>>>>>>>>>>> Responsiveness */
-@media (min-width: 600px) and (max-width: 1023px) {
-    #industries-sec .indus_icons_row {
-        gap: 40px;
-    }
-
-    #why-choose-icon-box-row {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 30px 0;
-    }
-
-    #why-choose-icon-box-row .vc_col-sm-1\/5 {
-        width: 50%;
-    }
-
-    #why-choose-icon-box-row {
-        height: auto;
-    }
-
-    #industries-sec .vc_row.wpb_row.vc_inner .wpb_column.vc_column_container .stm_iconbox__text h5 {
-        height: none !important;
-        margin: 0 !important;
-    }
-}
-
-
-@media (max-width: 767px) {
-    .vc_column_container>.vc_column-inner:not(#col-spotlight-slider .vc_column-inner) {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    #why-choose-icon-box-row {
-        height: auto;
-    }
-
-    #products-range .stm_projects_carousel.stm_projects_carousel_dark {
-        padding: 37px 10px 60px;
-    }
-
-    #why-choose-icon-box-row .wpb_column.vc_column_container:not(:first-child) {
-        margin-top: 30px;
-    }
-
-    #industries-sec .vc_row.wpb_row.vc_inner .wpb_column.vc_column_container .stm_iconbox__text h5 {
-        height: none !important;
-        margin: 0 !important;
-    }
-
-    #industries-sec .indus_icons_row {
-        gap: 40px;
-    }
-
-    #industries-sec .indus_icons_row .stm_iconbox.stm_iconbox_style_14 {
-        padding: 30px;
-    }
-
-}
-
-
-
-
-
-
-/* >>>>>>>>>>>>>>>>>>>>>>>>>> ENDS CSS */
-
