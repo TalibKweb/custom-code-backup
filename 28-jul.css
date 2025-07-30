@@ -1,7 +1,124 @@
 
+/* >>>>>>>>>>>>>>>>> Industries Detail Page Styling */
 
-.elementor-element.elementor-widget-aine-nav-menu nav.main-navigation ul.sub-menu li a  {
-        padding: 7px 12px;
+.custom-industry-layout.container {
+    margin-top: 180px;
+}
+
+.industry-short-desc h1.industry-title {
+    font-size: 40px;
+    line-height: 46px;
+    color: white;
+    margin: 0 0 8px;
+}
+
+.industry-short-desc h3.industry-sub-title {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #ef8121;
+}
+
+.industry-short-desc p {
+    font-size: 16px;
+    line-height: 22px;
+    color: white;
+    margin: 0;
+}
+
+.industry-full-description {
+    display: none;
+}
+
+.cust_icon_box h3.elementor-icon-box-title span {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary_hover) 51%, var(--primary) 100%) 0 / 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+}
+
+.cust_icon_box,
+.cust_icon_box:hover .elementor-icon {
+    transition: .55s all ease-in-out;
+}
+
+.cust_icon_box:hover .elementor-icon {
+    scale: 1.25;
 }
 
 
+.custom-industry-layout.container .industry-image img {
+    max-width: 300px;
+    width: 300px;
+    border-radius: 0;
+}
+
+.custom-industry-layout.container .industry-top-row.row {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+@media (max-width: 1024px) {
+    .industry-short-desc h1.industry-title {
+        font-size: 35px;
+        line-height: 42px;
+    }
+
+    .industry-short-desc h3.industry-sub-title {
+        font-size: 26px;
+        line-height: 32px;
+    }
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .custom-industry-layout.container .industry-top-row.row {
+        align-items: flex-start;
+    }
+
+    .custom-industry-layout.container .industry-top-row.row .industry-image,
+    .custom-industry-layout.container .industry-top-row.row .industry-short-desc {
+        width: 50%;
+    }
+
+    .custom-industry-layout.container .industry-top-row.row .industry-image img {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+
+
+@media (max-width: 767px) {
+    .custom-industry-layout.container {
+        margin-top: 120px;
+    }
+
+    .industry-short-desc h1.industry-title {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .industry-short-desc h3.industry-sub-title {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .custom-industry-layout.container .industry-top-row.row .industry-image img {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .custom-industry-layout.container .industry-top-row.row {
+        gap: 25px;
+    }
+}
+
+
+
+/* >>>>>>>>>>>>>>>>> ENDS Industries Detail Page Styling */
