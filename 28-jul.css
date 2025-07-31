@@ -122,3 +122,26 @@
 
 
 /* >>>>>>>>>>>>>>>>> ENDS Industries Detail Page Styling */
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+.cases-top-row.row {
+    display: none;
+}
+
+
+body.wp-singular.case_studies-template-default.single-case_studies .col-full {
+    min-width: 100%;
+    max-width: 100%;    
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.custom-cases-layout.container {   
+    max-width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
