@@ -1,0 +1,57 @@
+.main-navigation .sub-menu {
+  padding: 10px 0;
+  background-color: #ffffff;
+  box-shadow: 0px 3px 30px 0px rgba(0, 0, 0, 0.08);
+}
+
+
+.main-navigation .sub-menu .menu-item a {
+  padding: 7px 16px;
+}
+
+
+/* >>>>>>>>>>>>>>>>>>>>> */
+
+@media (max-width: 767px) {
+    .prods_carousel .uc_box_content {
+        padding: 30px 60px 40px 60px;
+    }
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .counter_box_home_pg {
+        width: 33%;
+    }
+}
+
+@media (max-width: 767px) {
+    .counter_box_home_pg {
+        width: 50%;
+    }
+}
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media (max-width: 767px) {
+    .cust_portfolio_home_pg .elementor-portfolio-wrapper .d-grid {
+        grid-gap: 30px;
+    }
+}
+
+
+
+/* :where(h1,)::selection */
+
+p::selection {
+    background-color: #EF8121 !important;
+    color: white !important;
+}
+
+:where(h1, h2, h3, h4, h5, h6)::selection
+{
+    background-color: white !important;
+    color: #EF8121 !important;
+}
