@@ -1,0 +1,42 @@
+
+
+.contact_form_cont_pg .wpcf7-response-output {
+    margin-top: 15px !important;
+    color: white !important;
+    border-color: #ef8121 !important;
+}
+
+.contact_form_cont_pg input.wpcf7-form-control {
+    margin-bottom: 5px !important;
+}
+
+.contact_form_cont_pg .wpcf7-form-control-wrap {
+    margin-bottom: 20px;
+}
+
+.contact_form_cont_pg .wpcf7-not-valid-tip {
+    color: #ef8121 !important;
+}
+
+.contact_form_cont_pg form.wpcf7-form .ct-form .row {
+    margin-bottom: 0px !important;
+}
+
+
+@media (max-width: 767px) {
+
+    .contact_form_cont_pg form.wpcf7-form .ct-form .row .column-email,
+    .contact_form_cont_pg form.wpcf7-form .ct-form .row .column-name {
+        flex: 100%;
+    }
+
+    .contact_form_cont_pg form.wpcf7-form .wpcf7-button button.elementor-button {
+        width: 100%;
+        padding: 12px 30px;
+    }
+
+    .contact_form_cont_pg form.wpcf7-form .wpcf7-form-control.wpcf7-textarea {
+        margin-bottom: 5px;
+    }
+}
+
