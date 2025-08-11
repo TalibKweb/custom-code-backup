@@ -40,3 +40,8 @@
     }
 }
 
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.image-gallery-slide.image-gallery-center img.image-gallery-image {
+    object-fit: cover ;
+}

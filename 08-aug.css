@@ -1,0 +1,37 @@
+.value_table th,
+.value_table td {
+    border: 1px solid;
+}
+
+.value_table table {
+    font-size: 14px;
+    line-height: 26px;
+    color: white;
+    font-weight: 100 !important;
+    margin: 0;
+}
+
+.value_table table th {
+    font-size: 16px;
+}
+
+.value_table tr th:first-child {   
+    width: 25%;
+}
+
+@media (max-width: 767px) {
+    .value_table tr th:first-child {
+        width: 50%;
+    }
+    .value_table th,
+    .value_table td {
+        padding: 16px 12px !important;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .value_table tr th:first-child {
+        width: 45%;
+    }
+}
