@@ -35,3 +35,12 @@
         width: 45%;
     }
 }
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+.sol_icon_box .elementor-cta__title {
+    font-size: 20px !important;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
